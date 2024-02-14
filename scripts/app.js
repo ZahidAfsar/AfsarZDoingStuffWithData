@@ -246,7 +246,7 @@ const disablePrevNext = () => {
 const onStart = async () => {
     createBtns();
     Sort('Id');
-    await fetchData();
+    fetchData();
 }
 
 PageMax = Math.ceil(data.People.length / pageSize);
