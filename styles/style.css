@@ -1,0 +1,88 @@
+.center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topSpace{
+    padding-top: 40px;
+}
+
+.Space{
+    padding-top: 25px;
+}
+
+.topCont{
+    background-color:lightgrey;
+    min-height: 180px;
+    border-bottom: 1px solid black;
+}
+
+.title{
+    color: steelblue;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.page-link{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.People{
+    font-size: 20px;
+    font-weight: bold;
+    color: steelblue;
+}
+
+.selectBox{
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.btnPagination {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: hidden; 
+}
+
+th {
+    border: 1px solid black;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: lightgray;
+    background-color: steelblue;
+}
+
+
+td {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 7px;
+    border: 1px solid black;
+}
+
+
+td, th {
+    position: relative;
+}
+
+th.highlight::after {
+    content: "";
+    position: absolute;
+    background-color: lightgray;
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+}
+
