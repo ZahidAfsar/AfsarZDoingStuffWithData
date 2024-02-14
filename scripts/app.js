@@ -251,7 +251,7 @@ const onStart = async () => {
 
 PageMax = Math.ceil(data.People.length / pageSize);
 
-onStart();
+window.onload(onStart());
 
 
 
